@@ -1,6 +1,7 @@
 package com.gmail.plaza.kaam.activities;
 
 import android.os.Bundle;
+import androidx.appcompat.widget.Toolbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;

@@ -6,7 +6,11 @@
         <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.23796296296296296" />
         <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.23796296296296296" />
         <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/drawable/ic_launcher_background.xml" value="0.23796296296296296" />
+        <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/layout/activity_login_household_employee.xml" value="0.19972826086956522" />
+        <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/layout/activity_login_household_employer.xml" value="0.19972826086956522" />
         <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/layout/activity_register_household_employee.xml" value="0.19972826086956522" />
+        <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/layout/activity_register_household_employer.xml" value="0.19972826086956522" />
         <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/layout/app_bar_layout.xml" value="0.2033514492753623" />
         <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/layout/fragment_employee_household.xml" value="0.2033514492753623" />
         <entry key="..\:/Android Project/KaamPlaza/app/src/main/res/layout/fragment_employer_household.xml" value="0.2033514492753623" />

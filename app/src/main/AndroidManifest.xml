@@ -9,6 +9,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KaamPlaza">
         <activity
+            android:name=".activities.household_employer.RegisterHouseholdEmployerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.household_employer.LoginHouseholdEmployerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.household_employee.RegisterHouseholdEmployeeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.household_employee.LoginHouseholdEmployeeActivity"
+            android:exported="true" />
+        <activity
             android:name=".activities.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">

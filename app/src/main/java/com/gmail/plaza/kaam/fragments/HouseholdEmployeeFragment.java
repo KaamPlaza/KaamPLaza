@@ -1,5 +1,6 @@
 package com.gmail.plaza.kaam.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,8 +8,11 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.gmail.plaza.kaam.R;
+import com.gmail.plaza.kaam.activities.household_employee.LoginHouseholdEmployeeActivity;
+import com.gmail.plaza.kaam.activities.household_employee.RegisterHouseholdEmployeeActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -25,6 +29,9 @@ public class HouseholdEmployeeFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    private Button login;
+    private Button register;
 
     public HouseholdEmployeeFragment() {
         // Required empty public constructor
@@ -55,12 +62,30 @@ public class HouseholdEmployeeFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_employee_household, container, false);
+        View v = inflater.inflate(R.layout.fragment_employee_household, container, false);
+        login = v.findViewById(R.id.login);
+        register = v.findViewById(R.id.register);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent loginIntent = new Intent(getContext(), LoginHouseholdEmployeeActivity.class);
+                startActivity(loginIntent);
+            }
+        });
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent registerIntent = new Intent(getContext(), RegisterHouseholdEmployeeActivity.class);
+                startActivity(registerIntent);
+            }
+        });
+        return v;
     }
 }

@@ -38,6 +38,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gmail/plaza/kaam/activities/household_employee/LoginHouseholdEmployeeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gmail/plaza/kaam/activities/household_employee/RegisterHouseholdEmployeeActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gmail/plaza/kaam/activities/household_employer/LoginHouseholdEmployerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gmail/plaza/kaam/activities/household_employer/RegisterHouseholdEmployerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/gmail/plaza/kaam/adapters/AllTabAdapters.java">
           <value>
             <set />
@@ -49,6 +69,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/gmail/plaza/kaam/adapters/DashboardViewPagerAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gmail/plaza/kaam/classes/BackgroundVideoView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/gmail/plaza/kaam/fragments/HouseholdEmployeeFragment.java">
           <value>
             <set />
           </value>
@@ -68,7 +98,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_login_household_employee.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_login_household_employer.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_register_household_employee.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_register_household_employer.xml">
           <value>
             <set />
           </value>
@@ -89,6 +139,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/raw/video.mp4">
           <value>
             <set />
           </value>

@@ -1,5 +1,6 @@
 package com.gmail.plaza.kaam.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,10 +8,15 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
 import com.gmail.plaza.kaam.R;
+import com.gmail.plaza.kaam.activities.household_employee.LoginHouseholdEmployeeActivity;
+import com.gmail.plaza.kaam.activities.household_employee.RegisterHouseholdEmployeeActivity;
+import com.gmail.plaza.kaam.activities.household_employer.LoginHouseholdEmployerActivity;
+import com.gmail.plaza.kaam.activities.household_employer.RegisterHouseholdEmployerActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -27,6 +33,9 @@ public class HouseholdEmployerFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    private Button login;
+    private Button register;
 
     public HouseholdEmployerFragment() {
         // Required empty public constructor
@@ -64,6 +73,22 @@ public class HouseholdEmployerFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_employer_household, container, false);
+        login = v.findViewById(R.id.login);
+        register = v.findViewById(R.id.register);
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent loginIntent = new Intent(getContext(), LoginHouseholdEmployerActivity.class);
+                startActivity(loginIntent);
+            }
+        });
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent registerIntent = new Intent(getContext(), RegisterHouseholdEmployerActivity.class);
+                startActivity(registerIntent);
+            }
+        });
         return v;
     }
 }
